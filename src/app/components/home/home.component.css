@@ -1,0 +1,39 @@
+.home { 
+  background-color: var(--primary-background);
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 5vw; */
+
+  min-height: 92vh;
+  box-sizing: border-box;
+}
+
+.home__img { 
+  width: 40vw;
+  
+}
+
+.home__details { 
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+
+@media screen and (max-width: 500px) { 
+  .home { 
+    flex-direction: column;
+    justify-content: unset;
+  }
+  .home__img{ 
+    width: 60vw;
+  }
+  .home__details { 
+    width: 85%;
+    overflow: unset;
+    height: unset;
+  }
+}

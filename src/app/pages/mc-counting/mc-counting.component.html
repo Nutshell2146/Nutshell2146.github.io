@@ -1,0 +1,143 @@
+<div class="content">
+  <h1 class="primary-h1">Counting</h1>
+  
+  <section class="arithmetic primary-section" id="arithmetic">
+    <h2 class="primary-h2">Arithmetic Sequence</h2>
+    <p>it has a common difference between items</p>
+  
+    <h3 class="primary-h3">n<sup>th</sup> term</h3>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/arithmetic-element.svg" alt="equation" class="content-img">
+      <p>a<sub>1</sub> = first term</p>
+      <p>n = term position</p>
+      <p>d = common difference</p>
+    </div>
+  
+    <h3 class="primary-h3">sum of n<sup>th</sup> terms</h3>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/arithmetic-sum.svg" alt="equation" class="content__img content__img--w350">
+      <p>n = term position</p>
+      <p>a = first term</p>
+      <p>d = common difference</p>
+    </div>
+  </section>
+
+  <section class="primary-section" id="geometric">
+    <h2 class="primary-h2">Geometric Sequence</h2>
+    <p>Common Ratio:  <strong>r = (n+1) / n</strong></p>
+
+    <h3 class="primary-h3">n<sup>th</sup> term</h3>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/geometric-term.svg" alt="" class="content__img geometric__term-img">
+      <p>n = term position</p>
+      <p>a = first term</p>
+      <p>r = common ratio</p>
+    </div>
+
+    <h3 class="primary-h3">sum of n<sup>th</sup> terms</h3>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/geometric-sum.jpg" alt="" class="content__img content__height-unset geometric__sum-img">
+      <p>n = term position</p>
+      <p>a = first term</p>
+      <p>r = common ratio</p>
+    </div>
+  </section>
+
+  <section class="primary-section" id="sigma-notation">
+    <h2 class="primary-h2">Sigma Notation</h2>
+    <p>sum of all the terms</p>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/sigma-notation.png" alt="" class="content__img content__img--w350">
+    </div>
+  </section>
+
+  <section class="primary-section" id="pi-notation">
+    <h2 class="primary-h2">Pi Notation</h2>
+    <p>product of all the terms </p>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/pi-notation.png" alt="" class="content__img content__img--w350">
+      <img src="../../../assets/MC/counting/pi-notation-2.png" alt="" class="content__img content__img--w350">
+    </div>
+  </section>
+
+  <section class="primary-section" id="factorial">
+    <h2 class="primary-h2">Factorial</h2>
+    <p>the product of all positive integers less than or equal to n</p>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/factorial.png" class="content__img content__img--w350">
+      <h2><strong>0! = 1</strong></h2>
+    </div>
+  </section>
+
+  <section class="primary-section" id="ncr-notation">
+    <h2 class="primary-h2"><sup>n</sup>C<sub>r</sub> Notation</h2>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/Combination-Formula.png" alt="" class="content__img content__img--w350">
+    </div>
+  </section>
+
+  <section class="primary-section" id="npr-notation">
+    <h2 class="primary-h2"><sup>n</sup>P<sub>r</sub> Notation</h2>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/permutations-formula.png" alt="" class="content__img content__img--w350">
+    </div>
+  </section>
+
+  <section class="primary-section" id="permutation">
+    <h2 class="primary-h2">Permutation</h2>
+    <p>A permutation is an arrangement of objects in specific order</p>
+    <ul>
+      <li>
+        <p>Order is important</p>
+      </li>
+    </ul>
+    <div class="primary-grey-box">
+      <strong>P = n!</strong>
+    </div>
+    <div class="primary-grey-box">
+      <p><strong>example:</strong> </p>
+      <p>How many ways can the letters in the word COMPUTER be arranged in a row?</p>
+      <p><strong>answer: </strong></p>
+      <p>8! = 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 40,320</p>
+    </div>
+
+    <h3 class="primary-h3">Permutation of selected elements</h3>
+    <p>you can get this with <strong><a routerLink="./" fragment="npr-notation"><sup>n</sup>P<sub>r</sub> Notation </a></strong></p>
+    <div class="primary-grey-box">
+      <p><strong>example:</strong> </p>
+      <p>A license plate begins with three letters. If the possible letters are A, B, C, D and E, how many different permutations of these letters can be made if no letter is used more than once?</p>
+      <p><strong>answer:</strong> </p>
+      <p><sup>5</sup>P<sub>3</sub> = 5! / (5 - 3)! = 60</p>
+    </div>
+  </section>
+
+  <section class="primary-section" id="combinations">
+    <h2 class="primary-h2">Combinations</h2>
+    <ul>
+      <li>
+        <p>Order is NOT important</p>
+      </li>
+    </ul>
+    <p>you can get this with <strong><a routerLink="./" fragment="ncr-notation" ><sup>n</sup>C<sub>r</sub> Notation </a></strong></p>
+    <div class="primary-grey-box">
+      <p><strong>example:</strong> </p>
+      <p>In how many ways can a coach choose three swimmers from among five swimmers??</p>
+      <p><strong>answer: </strong></p>
+      <p><sup>5</sup>C<sub>3</sub> = 5! / (3!(5 - 3)!) = 10</p>
+    </div>
+  </section>
+
+  <section class="primary-section" id="Binomial theorem">
+    <h2 class="primary-h2">Binomial Theorem</h2>
+    <p>describes the algebraic expansion of powers of a binomial.</p>
+    <div class="primary-grey-box">
+      <img src="../../../assets/MC/counting/binomial.png" alt="" class="binomial__img">
+    </div>
+    <div class="primary-grey-box">
+      <p><strong>example: </strong></p>
+      <img src="../../../assets/MC/counting/Binomial-Theorem-02-min.jpg" alt="" class="binomial__img">
+    </div>
+
+  </section>
+
+</div>

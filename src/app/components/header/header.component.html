@@ -1,0 +1,40 @@
+<header> 
+  <h1 class="header__title"><a routerLink="/">Docs</a></h1>
+  <div class="header__right">
+    <div class="header__search-div">
+      <input #filter type="text" class="primary-box header__search" (input)="onSearchInput(filter.value)">
+      <div class="header__search-result primary-box">
+        <a class="header__search-item" *ngFor="let item of filteredList" routerLink="{{item.link}}" (click)="clearInput()">{{item.name}}</a>
+      </div>
+      
+    </div>
+    <div class="header__search-logo-div" (click)="openMobileSearch()">
+      <img src="../../../assets/search.svg" alt="search logo" class="header__search-logo">
+    </div>
+
+    <select class="header__year header__select primary-box">
+      <option value="" disabled selected class="header__options">{{this.storageService.year == 0 ? 'Year ' : 'Year ' + this.storageService.year}}</option>
+      <option value="1" routerLink="year-1"  class="header__options">Year 1</option>
+      <option value="2" routerLink="year-2"  class="header__options">Year 2</option>
+    </select>
+    <select class="header__sem header__select primary-box">
+      <option value="" disabled selected class="header__options">{{this.storageService.sem == 0 ? 'Sem' : 'Sem ' + this.storageService.sem}}</option>
+      <option value="1" routerLink="year-1/sem-1" class="header__options">Sem 1</option>
+      <option value="2" routerLink="sem-2" class="header__options">Sem 2</option>
+    </select>
+    <select class="header__subject header__select primary-box">
+      <option value="" disabled selected class="header__options">Subject</option>
+      <option value="1" class="header__options">MC</option>
+    </select>
+    <select class="header__lesson header__select primary-box">
+      <option value="" disabled selected class="header__options">Lesson</option>
+      <option value="1" class="header__options">Functions</option>
+    </select>
+  </div>
+</header>
+
+<div class="mobile-search">
+  <img src="../../../assets/close.svg" alt="" class="mobile-search__close" (click)="closeMobileSearch()">
+  <input #mFilter type="text" class="primary-box mobile-search__input" (input)="onSearchInput(mFilter.value)">
+  <a class="header__search-item" *ngFor="let item of filteredList" routerLink="{{item.link}}" (click)="closeMobileSearch()">{{item.name}}</a>
+</div>
