@@ -10,19 +10,26 @@ export class SubjectsService {
   subjects: SubjectsData[] = [ 
     {year: 1, sem: 1, subjects: [
       {subject : 'MC', lessons: [
+        {name: 'Boolean Algebra', link: 'boolean'}, 
+        {name: 'Logic Gates', link: 'logic-gates'}, 
         {name: 'Functions', link: 'functions'}, 
         {name: 'Counting', link: 'counting'}, 
         {name: 'Integration', link: 'integration'}, 
         {name: 'Differentiation', link: 'differentiation'}, 
       ]},
       {subject : 'IP', lessons: [
+        {name: 'Structures', link: 'structures'}, 
       ]},
       {subject : 'ICS', lessons: [
+        {name: 'Computer Generations', link: 'computer-generation'}, 
       ]},
       {subject : 'CS', lessons: [
+        {name: 'Parts of Speech', link: 'parts-of-speech'}, 
+        {name: 'Tenses', link: 'tenses'}, 
+        {name: 'Formal Language', link: 'formal-language'}, 
+        {name: 'Non Discriminatory', link: 'non-discriminatory'}, 
         {name: 'Email', link: 'email'}, 
         {name: 'Memo', link: 'memo'}, 
-        {name: 'Non Discriminatory', link: 'non-discriminatory'}, 
       ]},
     ]}
     

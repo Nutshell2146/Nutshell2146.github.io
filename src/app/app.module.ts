@@ -20,6 +20,12 @@ import { CsNonDiscriminatoryComponent } from './pages/cs-non-discriminatory/cs-n
 import { CsFormalLanguageComponent } from './pages/cs-formal-language/cs-formal-language.component';
 import { McIntegrationComponent } from './pages/mc-integration/mc-integration.component';
 import { McDifferentiationComponent } from './pages/mc-differentiation/mc-differentiation.component';
+import { CsTensesComponent } from './pages/cs-tenses/cs-tenses.component';
+import { IpStructuresComponent } from './pages/ip-structures/ip-structures.component';
+import { McBooleanComponent } from './pages/mc-boolean/mc-boolean.component';
+import { McLogicGatesComponent } from './pages/mc-logic-gates/mc-logic-gates.component';
+import { CsPartsOfSpeechComponent } from './pages/cs-parts-of-speech/cs-parts-of-speech.component';
+import { IcsComputerGenComponent } from './pages/ics-computer-gen/ics-computer-gen.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +46,13 @@ import { McDifferentiationComponent } from './pages/mc-differentiation/mc-differ
     CsNonDiscriminatoryComponent,
     CsFormalLanguageComponent,
     McIntegrationComponent,
-    McDifferentiationComponent
+    McDifferentiationComponent,
+    CsTensesComponent,
+    IpStructuresComponent,
+    McBooleanComponent,
+    McLogicGatesComponent,
+    CsPartsOfSpeechComponent,
+    IcsComputerGenComponent
   ],
   imports: [
     BrowserModule,
