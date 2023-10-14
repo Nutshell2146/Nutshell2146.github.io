@@ -26,6 +26,9 @@ import { McBooleanComponent } from './pages/mc-boolean/mc-boolean.component';
 import { McLogicGatesComponent } from './pages/mc-logic-gates/mc-logic-gates.component';
 import { CsPartsOfSpeechComponent } from './pages/cs-parts-of-speech/cs-parts-of-speech.component';
 import { IcsComputerGenComponent } from './pages/ics-computer-gen/ics-computer-gen.component';
+import { McGraphTheoryComponent } from './pages/mc-graph-theory/mc-graph-theory.component';
+import { IcsOsiComponent } from './pages/ics-osi/ics-osi.component';
+import { CsLettersComponent } from './pages/cs-letters/cs-letters.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +55,10 @@ import { IcsComputerGenComponent } from './pages/ics-computer-gen/ics-computer-g
     McBooleanComponent,
     McLogicGatesComponent,
     CsPartsOfSpeechComponent,
-    IcsComputerGenComponent
+    IcsComputerGenComponent,
+    McGraphTheoryComponent,
+    IcsOsiComponent,
+    CsLettersComponent
   ],
   imports: [
     BrowserModule,

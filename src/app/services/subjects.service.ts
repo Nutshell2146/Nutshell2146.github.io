@@ -16,12 +16,14 @@ export class SubjectsService {
         {name: 'Counting', link: 'counting'}, 
         {name: 'Integration', link: 'integration'}, 
         {name: 'Differentiation', link: 'differentiation'}, 
+        {name: 'Graph Theory', link: 'graph-theory'}, 
       ]},
       {subject : 'IP', lessons: [
         {name: 'Structures', link: 'structures'}, 
       ]},
       {subject : 'ICS', lessons: [
         {name: 'Computer Generations', link: 'computer-generation'}, 
+        {name: 'OSI model', link: 'osi'}, 
       ]},
       {subject : 'CS', lessons: [
         {name: 'Parts of Speech', link: 'parts-of-speech'}, 
@@ -30,6 +32,7 @@ export class SubjectsService {
         {name: 'Non Discriminatory', link: 'non-discriminatory'}, 
         {name: 'Email', link: 'email'}, 
         {name: 'Memo', link: 'memo'}, 
+        {name: 'Letters', link: 'letter'}, 
       ]},
     ]}
     

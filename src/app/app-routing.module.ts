@@ -20,6 +20,9 @@ import { McBooleanComponent } from './pages/mc-boolean/mc-boolean.component';
 import { McLogicGatesComponent } from './pages/mc-logic-gates/mc-logic-gates.component';
 import { CsPartsOfSpeechComponent } from './pages/cs-parts-of-speech/cs-parts-of-speech.component';
 import { IcsComputerGenComponent } from './pages/ics-computer-gen/ics-computer-gen.component';
+import { McGraphTheoryComponent } from './pages/mc-graph-theory/mc-graph-theory.component';
+import { IcsOsiComponent } from './pages/ics-osi/ics-osi.component';
+import { CsLettersComponent } from './pages/cs-letters/cs-letters.component';
 
 const routes: Routes = [
   {
@@ -35,6 +38,7 @@ const routes: Routes = [
   {path: 'year-1/sem-1/IP/structures', component: IpStructuresComponent},
 
   {path: 'year-1/sem-1/ICS/computer-generation', component: IcsComputerGenComponent},
+  {path: 'year-1/sem-1/ICS/osi', component: IcsOsiComponent},
 
   {path: 'year-1/sem-1/MC/counting', component: McCountingComponent},
   {path: 'year-1/sem-1/MC/logic-gates', component: McLogicGatesComponent},
@@ -42,6 +46,7 @@ const routes: Routes = [
   {path: 'year-1/sem-1/MC/functions', component: McFunctionsComponent},
   {path: 'year-1/sem-1/MC/integration', component: McIntegrationComponent},
   {path: 'year-1/sem-1/MC/differentiation', component: McDifferentiationComponent},
+  {path: 'year-1/sem-1/MC/graph-theory', component: McGraphTheoryComponent},
 
   {path: 'year-1/sem-1/CS/memo', component: CsMemoComponent},
   {path: 'year-1/sem-1/CS/email', component: CsEmailComponent},
@@ -49,6 +54,7 @@ const routes: Routes = [
   {path: 'year-1/sem-1/CS/parts-of-speech', component: CsPartsOfSpeechComponent},
   {path: 'year-1/sem-1/CS/formal-language', component: CsFormalLanguageComponent},
   {path: 'year-1/sem-1/CS/non-discriminatory', component: CsNonDiscriminatoryComponent},
+  {path: 'year-1/sem-1/CS/letter', component: CsLettersComponent},
 ];
 
 @NgModule({

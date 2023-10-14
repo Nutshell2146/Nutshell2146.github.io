@@ -1,0 +1,88 @@
+<div class="content">
+  <h1 class="primary-h1">OSI Model</h1>
+  <div class="primary-grey-box">
+    <h3>OSI - Open System Interconnection</h3>
+  </div>
+
+  <h2 class="primary-h2">Networking protocol</h2>
+  <div class="primary-grey-box">
+    <p>Networking protocols define a common format and a set of rules for exchanging messages between devices</p>
+  </div>
+
+  <h2 class="primary-h2">Benefits of using layered model</h2>
+  <ul>
+    <li>Provides a common language</li>
+    <li>create a competition between vendors</li>
+    <li>Changes in one layer don't affect other layers</li>
+    <li>Assists in protocol design</li>
+  </ul>
+
+  <h2 class="primary-h2">OSI layers</h2>
+  <h3>7. Application</h3>
+  <ul>
+    <li>user interface to the network</li>
+    <li><strong>protocols - HTTP, FTP, SNTP, DNS, Telnet</strong></li>
+  </ul>
+  <h3>6. Presentation</h3>
+  <ul>
+    <li>Translation</li>
+    <li>Encryption</li>
+    <li>Compression</li>
+    <li><strong>protocols - SSL, TLS</strong></li>
+  </ul>
+  <h3>5. Session</h3>
+  <ul>
+    <li>Dialog control - Allows the two communicating processes to enter into a dialog</li>
+    <li>Synchronization - Session layer adds checkpoints in between the long data stream passed by the layer above</li>
+    <li><strong>protocols - NetBOIS, PPIP</strong></li>
+  </ul>
+  <h3>4. Transport</h3>
+  <ul>
+    <li>PORT numbers</li>
+    <li>Segmentation</li>
+    <li>Connection control</li>
+    <li>Flow control</li>
+    <li>Error control</li>
+    <li>Process to process</li>
+    <li><strong>segments</strong></li>
+    <li><strong>protocols - TCP, UDP</strong></li>
+  </ul>
+  <h3>3. Network</h3>
+  <ul>
+    <li>Routing</li>
+    <li>Logical addressing(IP addressing)</li>
+    <li>Host to host</li>
+    <li><strong>packets</strong></li>
+    <li><strong>protocols - IP, ARP, ICMP, IPSec</strong></li>
+  </ul>
+  <h3>2. Data Link</h3>
+  <ul>
+    <li>Framing</li>
+    <li>Physical Addressing (MAC address)</li>
+    <li>Flow control</li>
+    <li>Error control</li>
+    <li>Access control</li>
+    <li>Hop to hop</li>
+    <li><strong>frames</strong></li>
+    <li><strong>protocols - PPP, ATP, Ethernet</strong></li>
+  </ul>
+  <h3>1. Physical</h3>
+  <ul>
+    <li>Transmit raw data over transmission media</li>
+    <li>converts digital/analog bits into electrical or optical signals</li>
+    <li><strong>bits</strong></li>
+    <li><strong>protocols - Ethernet, Bluetooth, USB, IEEE802.11</strong></li>
+  </ul>
+
+  <h2 class="primary-h2">TCP/IP stack</h2>
+  <img src="../../../assets/ICS/osi/tcpipstack-vs-osimodel.png" alt="img" class="content__img--w350">
+
+  <h2 class="primary-h2">MAC address</h2>
+  <ul>
+    <li>Physical address</li>
+    <li>Universally unique address</li>
+    <li>48 bit long</li>
+    <li>first 3 bytes - OUI (Organizationally Unique Identifier)</li>
+    <li>last 3 bytes - NIC (Network Interface Controller)</li>
+  </ul>
+</div>
