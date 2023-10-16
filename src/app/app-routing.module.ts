@@ -23,6 +23,10 @@ import { IcsComputerGenComponent } from './pages/ics-computer-gen/ics-computer-g
 import { McGraphTheoryComponent } from './pages/mc-graph-theory/mc-graph-theory.component';
 import { IcsOsiComponent } from './pages/ics-osi/ics-osi.component';
 import { CsLettersComponent } from './pages/cs-letters/cs-letters.component';
+import { IcsNetworkCommunicatingComponent } from './pages/ics-network-communicating/ics-network-communicating.component';
+import { IcsNetworkingIntroComponent } from './pages/ics-networking-intro/ics-networking-intro.component';
+import { IcsNetworkAddressingComponent } from './pages/ics-network-addressing/ics-network-addressing.component';
+import { IcsNetworkDesignComponent } from './pages/ics-network-design/ics-network-design.component';
 
 const routes: Routes = [
   {
@@ -39,6 +43,10 @@ const routes: Routes = [
 
   {path: 'year-1/sem-1/ICS/computer-generation', component: IcsComputerGenComponent},
   {path: 'year-1/sem-1/ICS/osi', component: IcsOsiComponent},
+  {path: 'year-1/sem-1/ICS/network-addressing', component: IcsNetworkAddressingComponent},
+  {path: 'year-1/sem-1/ICS/networking-intro', component: IcsNetworkingIntroComponent},
+  {path: 'year-1/sem-1/ICS/network-communicating', component: IcsNetworkCommunicatingComponent},
+  {path: 'year-1/sem-1/ICS/network-design', component: IcsNetworkDesignComponent},
 
   {path: 'year-1/sem-1/MC/counting', component: McCountingComponent},
   {path: 'year-1/sem-1/MC/logic-gates', component: McLogicGatesComponent},

@@ -24,6 +24,10 @@ export class SubjectsService {
       {subject : 'ICS', lessons: [
         {name: 'Computer Generations', link: 'computer-generation'}, 
         {name: 'OSI model', link: 'osi'}, 
+        {name: 'Network addressing', link: 'network-addressing'}, 
+        {name: 'Netwoking intro', link: 'networking-intro'}, 
+        {name: 'Network Communication', link: 'network-communicating'}, 
+        {name: 'Design a Network', link: 'network-design'}, 
       ]},
       {subject : 'CS', lessons: [
         {name: 'Parts of Speech', link: 'parts-of-speech'}, 

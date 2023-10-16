@@ -29,6 +29,10 @@ import { IcsComputerGenComponent } from './pages/ics-computer-gen/ics-computer-g
 import { McGraphTheoryComponent } from './pages/mc-graph-theory/mc-graph-theory.component';
 import { IcsOsiComponent } from './pages/ics-osi/ics-osi.component';
 import { CsLettersComponent } from './pages/cs-letters/cs-letters.component';
+import { IcsNetworkCommunicatingComponent } from './pages/ics-network-communicating/ics-network-communicating.component';
+import { IcsNetworkingIntroComponent } from './pages/ics-networking-intro/ics-networking-intro.component';
+import { IcsNetworkAddressingComponent } from './pages/ics-network-addressing/ics-network-addressing.component';
+import { IcsNetworkDesignComponent } from './pages/ics-network-design/ics-network-design.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +62,11 @@ import { CsLettersComponent } from './pages/cs-letters/cs-letters.component';
     IcsComputerGenComponent,
     McGraphTheoryComponent,
     IcsOsiComponent,
-    CsLettersComponent
+    CsLettersComponent,
+    IcsNetworkCommunicatingComponent,
+    IcsNetworkingIntroComponent,
+    IcsNetworkAddressingComponent,
+    IcsNetworkDesignComponent
   ],
   imports: [
     BrowserModule,
